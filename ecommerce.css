@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: black;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:white;
+    overflow-x: hidden;
+
+}
+ .options {
+    display: flex; /* Use flexbox to arrange items inline */
+    gap: 0px; /* Optional: adds space between the links */
+} 
+.nav{
+    height:100px;
+    width:100%;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 1px solid grey;
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+}
+.nav-h1{
+color:sienna;
+font-size: 20px;
+}
+.options a{
+text-decoration: none;
+color: white;
+margin-left: 40px;
+font-size: 20px;
+
+}
+.options i{
+    margin-left: 40px;
+    font-size: 25px;
+}
+.herosection {
+    width:100%;
+    height:500px;
+    display:flex;
+    margin-top: 100px;
+}
+
+.heroleft {
+    height:450px;
+    width:50%;
+    padding-left:50px;
+    padding-top:120px;
+
+
+
+    
+}
+.heroright {
+    height:450px;
+    width:50%;
+    padding-left: 30px;
+    
+    }
+    .heropara{
+        font-size: 22px;
+        margin-bottom:10px;
+
+
+    }
+    .hero-h1{
+        font-size:25px;
+        margin-bottom:10px;
+
+        
+    }
+    .hero-h1 span{
+        color:sienna;
+    }
+    .herobutton{
+        margin-top:10px;
+    }
+    .herobutton button{
+        background-color:sienna ;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+    .shops{
+        height:500px;
+        width:100%;
+        margin-top: 50px;
+    }
+    .shops h1{
+        font-size: 45px;
+        text-align: center;
+
+    }
+    .shops h1 span{
+        color: sienna;
+        
+    }
+    .shopboxes{
+        height: 450px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding:10px;
+    }
+    .shopbox1{
+        height: 400px;
+        width:300px;
+        background-color: white;
+        border-radius: 20px;
+        
+        
+
+    }
+    .shopbox1h3{
+        color: black;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .shopsicon{
+        color: rgb(255,179,0);
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    .shopsbutton button{
+        height: 40px;
+        width: 150px;
+        border-radius: 10px;
+        border: none;
+        background-color: sienna;
+        color: white;
+        font-size: 20px;
+    }
+    .shopsbutton{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .image{
+        
+        height: 250px;
+        width: 300px;
+        background-color: gray;
+        border:2px solid white;
+        background-image: url("shoppers\ stop.jpg");
+        background-size: cover;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+
+
+    }
+    
+    
+    .shopbox2{
+        height: 400px;
+        width:300px;
+        background-color: white;
+        border-radius: 20px;
+        
+
+    }
+    
+    
+   
+    .image2{
+        
+        height: 250px;
+        width: 300px;
+        background-color: gray;
+        border:2px solid white;
+        background-image: url("tshirt.png");
+        background-size: cover;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    
+    }
+    .shopbox3{
+        height: 400px;
+        width:300px;
+        background-color: white;
+        border-radius: 20px;
+        .image3{
+        
+            height: 250px;
+            width: 300px;
+            background-color: gray;
+            border:2px solid white;
+            background-image: url("jeans.png");
+            background-size: cover;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        
+        }
+
+    }
+    .girlsshops{
+        .shops{
+            height:500px;
+            width:100%;
+            margin-top: 50px;
+        }
+        .shopbox4{
+            height: 400px;
+            width:300px;
+            background-color: white;
+            border-radius: 20px;}
+            .image4{
+                height: 250px;
+                    width: 300px;
+                    background-color: gray;
+                    border:2px solid white;
+                    background-image: url("girlstshirt.png");
+                    background-size: cover;
+                    border-top-right-radius: 20px;
+                    border-top-left-radius: 20px;
+                
+            }
+        .shopbox5{
+            height: 400px;
+            width:300px;
+            background-color: white;
+            border-radius: 20px;}
+            .image5{
+                height: 250px;
+                    width: 300px;
+                    background-color: gray;
+                    border:2px solid white;
+                    background-image: url("kurti.png");
+                    background-size: cover;
+                    border-top-right-radius: 20px;
+                    border-top-left-radius: 20px;
+                
+            }
+
+        .shopbox6{
+            height: 400px;
+            width:300px;
+            background-color: white;
+            border-radius: 20px;}
+    }
+    .image6{
+        height: 250px;
+            width: 300px;
+            background-color: gray;
+            border:2px solid white;
+            background-image: url("tops.png");
+            background-size: cover;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        
+    }
+    /*blogs*/
+    .blogs{
+        height: 400px;
+        width: 100%;
+        
+        
+
+
+    }
+    .blogsleftandright{
+    height: 400px;
+    width: 100%;
+    display: flex;
+
+    }
+    
+    .blogleft{
+        height: 400px;
+        width: 50%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.blogleftbox{
+    height: 300px;
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+  
+}
+    .blogright
+    {
+        height:400px;
+        width: 50%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .blogs h1{
+        font-size: 50px;
+        text-align: center;
+
+    }
+    .blogrightbox{
+        height: 300px;
+        width: 500px;
+       border: 2px solid white;
+        border-radius: 20px;
+    display: flex;
+  
+        }
+        .blogimageboy{
+            height: 280px;
+            width: 300px;
+            
+            margin-left: 10px;
+            margin-top: 10px;
+            background-image: url('boysimage.png');
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .blogboytext{
+            height: 280px;
+          
+            margin-left: 20px;
+            
+
+        }
+        .blogboytext h1{
+            margin-top: 30px;
+
+        }.blogboytext  p{
+            margin-top: 30px;
+           
+
+        }
+        .blogboytext button{
+            height: 50px;
+            width: 200px;
+            font-size: 20px;
+            border: none;
+            color: white;
+            background-color: sienna;
+            margin-top: 30px;
+            border-radius: 10px;
+            
+
+
+        }
+        .blogboytext a{
+            text-decoration: none;
+            color: white;
+        }
+        .blogimagegirl{
+            height: 280px;
+            width: 300px;
+            
+            margin-left: 10px;
+            margin-top: 10px;
+            background-image: url('girlblog.png');
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .bloggirltext{
+            height: 280px;
+          
+            margin-left: 20px;
+            
+
+        }
+        .bloggirltext h1{
+            margin-top: 30px;
+            display: inline;
+
+        }.bloggirltext  p{
+            margin-top: 30px;
+           
+
+        }
+        .bloggirltext button{
+            height: 50px;
+            width: 200px;
+            font-size: 20px;
+            border: none;
+            color: white;
+            background-color: sienna;
+            margin-top: 30px;
+            border-radius: 10px;
+            
+
+
+        }
+        .bloggirltext a{
+            text-decoration: none;
+            color: white;
+        }
+        /*footer*/
+        .footer{
+            height: 300px;
+            width: 100%;
+            border-top: 1px solid gray;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+
+
+
+
+        }
+        .footerh1{
+            font-size: 80px;
+         
+
+color: sienna;
+
+        }
+        .footer .icons{
+            font-size: 120px;
+
+
+            
+
+        }
